@@ -12,8 +12,8 @@ int main(void)
 	else if (color == 'G')//입력받은 문자가 R이 아니고 G라면 “진행을 출력한다.
 		printf("진행\n");
 
-	else
-		printf("주의\n");//입력받은 문자가 R도 아니고 G도 아니라면 “주의”를 출력한다.
+	else//입력받은 문자가 R도 아니고 G도 아니라면 “주의”를 출력한다.
+		printf("주의\n");
 	return 0;
 
 }
